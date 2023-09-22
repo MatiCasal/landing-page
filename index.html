@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landpage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="/imagenes/logomcc.png" alt="logo fotografia" />
+      <nav class="navbar">
+        <ul class="nav__list">
+          <li class="nav__link">
+            <a href="#hero"><b>Sobre Mi</b></a>
+          </li>
+          <li class="nav__link">
+            <a href="#galeria"><b>Galeria</b></a>
+          </li>
+          <li class="nav__link">
+            <a href="#servicios"><b>Servicios</b></a>
+          </li>
+          <li class="nav__link">
+            <a href="#contacto"><b>Contacto</b></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="hero">
+        <div class="hero-info">
+          <h1 id="info-mati">Matias Casal Fotografia</h1>
+
+          <p>
+            Soy Matias Casal, tengo 28 años y vivo en Comodoro Rivadavia-Chubut,
+            Argentina. Desde que fui chico la fotografia me cautivo, tuve mi
+            primer camara analogica a los 11 años, a los 15 la primera digital,
+            y a los 21 me pude comprar la primer Dslr. En mis imágenes intento
+            mostrar ese momento, ese instante que nunca vuelve a ser el mismo,
+            poder capturar un pedacito de la vida de las personas, de los
+            animales, los paisajes, buscando detalles, texturas, abstracción y
+            momentos especiales para crear arte donde los sentimientos
+            predominen por sobre lo visual.
+          </p>
+          <a class="contact" href="#contacto">Contacto</a>
+        </div>
+        <div>
+          <img class="mati" src="/imagenes/autoretrato.jpg" alt="autoretrato" />
+        </div>
+      </section>
+
+      <!-- -----Galeria----->
+      <section id="galeria">
+        <h2>Galeria</h2>
+
+        <!-- ------sol------>
+
+        <div class="contenedor-sol">
+          <img src="/imagenes/amanecer.jpg" alt="amanecer" />
+
+          <img src="/imagenes/playa.jpg" alt="Dos personas en la playa" />
+
+          <img src="/imagenes/atardecer.jpg" alt="atardecer" />
+        </div>
+
+        <!-- <div class="contenedor-flores"> -->
+        <div class="contenedor-flores">
+          <img
+            src="/imagenes/cala.jpg"
+            alt="perra recoostada con la lengua afuera"
+          />
+
+          <img src="/imagenes/rosa.jpg" alt="rosa con una araña" />
+
+          <img src="/imagenes/lagartija.jpg" alt="lagartija" />
+        </div>
+        <!-- </div> -->
+      </section>
+
+      <!-- ------Porque elegirme------ -->
+      <section id="servicios">
+        <h2>¡Bienvenidos a mi mundo visual!</h2>
+        <p>
+          " Soy un apasionado fotógrafo listo para llevar tus imágenes al
+          siguiente nivel. Ofrezco una gama de servicios que incluyen cursos de
+          fotografía para todos los niveles, presets personalizados de Lightroom
+          para dar vida a tus fotos, y la oportunidad de adornar tus espacios
+          con la belleza de la fotografía en forma de cuadros únicos. Descubre
+          cómo puedo ayudarte a capturar momentos extraordinarios y transformar
+          tus imágenes en obras de arte."
+        </p>
+        <div class="info-card-container">
+          <div class="info-card">
+            <img
+              class="camara-png"
+              src="/imagenes/camara.png"
+              alt="camara de fotos"
+            />
+            <h3>Cursos online</h3>
+            <p>
+              "Domina la fotografía: desde principiante hasta nivel avanzado.
+              Aprende a capturar momentos especiales y a expresar tu creatividad
+              a través de la lente."
+            </p>
+          </div>
+
+          <div class="info-card">
+            <img
+              class="lightroom-png"
+              src="/imagenes/Lr.png"
+              alt="Logo Lightroom"
+            />
+            <h3>Presets de Lightroom</h3>
+            <p>
+              "Transforma tus fotos al instante con mis presets personalizados
+              para Lightroom. Logra un aspecto profesional en tus imágenes con
+              un solo click. Descubre cómo estos presets pueden elevar tus
+              imágenes al siguiente nivel."
+            </p>
+          </div>
+
+          <div class="info-card">
+            <img
+              class="cuadro-png"
+              src="/imagenes/cuadro1.png"
+              alt="cuadro fotografico"
+            />
+            <h3>Tienda</h3>
+            <p>
+              "Mis fotos pueden ser tuyas. Decora los ambientes de tu hogar u
+              oficinas con cuadros fotograficos."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <div class="div-contact">
+          <h2 id="nav_contacto">Contacto</h2>
+          <h3 class="pregunta">
+            ¿Querés preguntarme algo? Hacelo en el formulario de abajo, me
+            contactaré cuanto antes!
+          </h3>
+
+          <div class="datos">
+            <div>
+              <p>Nombre:</p>
+              <label for="nombre">
+                <input
+                  id="nombre"
+                  type="text"
+                  placeholder="Ingrese su nombre:"
+                  required
+                />
+              </label>
+            </div>
+
+            <div>
+              <p>Correo:</p>
+              <label for="nombre">
+                <input
+                  id="nombre"
+                  type="text"
+                  placeholder="Ingrese su nombre:"
+                  required
+                />
+              </label>
+            </div>
+
+            <div>
+              <p>Mensaje:</p>
+              <label for="textarea-msj">
+                <textarea
+                  id="textarea-msj"
+                  rows="6"
+                  cols="50"
+                  placeholder="Ingrese su mensaje:"
+                ></textarea>
+              </label>
+              <label for="enviar">
+                <input id="enviar" type="submit" />
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <img
+        class="logo-foot"
+        src="/imagenes/logomcc.png"
+        alt="Logo Mati Fotografia"
+      />
+    </footer>
+  </body>
+</html>
