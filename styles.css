@@ -163,9 +163,10 @@ main {
   color: white;
 }
 
-#servicios p {
+#servicios h2 + p {
   width: 90%;
-  color: rgb(17, 18, 28);
+  color: white;
+  font-size: 18px;
   /* padding: 5px; */
   /* background-color: aqua; */
 }
